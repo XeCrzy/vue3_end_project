@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+html,
+body {
+    width: 100%;
+    height: 100%;
+    overflow-y: overlay;
+}
+/* 登录页 */
+#app{
+    height: 100%;
+}
+.login {
+    width: 100%;
+    height: 100%;
+    background: url(../assets/image/A79E564B0CCDDA7271FF3827D49617A94259D91A_size138_w1024_h683.jpeg)no-repeat;
+    background-size: cover;
+    background-color: #B8E5F8;
+}
+.login-item {
+    display: flex;
+    height: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.loginleft {
+    width: 220px;
+    background-color: #fff;
+    border-right: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+}
+.loginright {
+    width: 430px;
+    background-color: #fff;
+    padding: 20px;
+}
+.loginleft-title {
+    line-height: 23px;
+    font-weight: 600;
+    font-size: 22px;
+    padding-top: 40px;
+}
+.loginleft-erm {
+    margin: 25px 0;
+}
+
+.loginleft-erm img {
+    width: 200px;
+    height: 200px;
+}
+
+.login-item .el-input {
+    margin-top: 20px;
+}
+.login-item .el-input__wrapper {
+    padding: 8px;
+}
+/* 登录按钮  */
+.login-item .el-button {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+
+.otherwise {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px;
+    position: relative;
+}
+
+.otherwise-title {
+    color: #9198A4;
+    font-size: 12px;
+}
+
+.otherwise-title::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width: 124px;
+    height: 1px;
+    background-color: #eee;
+}
+
+.otherwise-title::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 124px;
+    height: 1px;
+    background-color: #eee;
+}
+
+.otherwise ul {
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+    padding-top: 20px;
+    width: 200px;
+}
+
+.otherwise ul li svg {
+    width: 24px;
+    height: 24px;
+    background-color: #F6F6F8;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.code-btn {
+    position: relative;
+}
+
+.code-btn .el-link {
+    position: absolute;
+    right: 18px;
+    top: 31px;
+    font-size: 16px;
+}
+
+.agreement {
+    text-align: center;
+    margin-top: 20px;
+}
+/* 页面头部 */
+.header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: #fff;
+    z-index: 999;
+    box-shadow: 0 1px 3px #ddd;
+}
+
+.appheader {
+    display: flex;
+    align-items: center;
+    max-width: 1280px;
+    min-width: 1000px;
+    margin: auto;
+}
+.el-container .el-header {
+    padding: 0;
+}
