@@ -32,14 +32,14 @@
 
 }
 .search{
-    height: 35px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .search input{
-    width: 50%;
+    width: 60%;
     height: 95%;
     border: 1px solid #ff7930;
     border-radius: 5px 0 0 5px;
@@ -57,7 +57,7 @@ a{
     height: 132px;
     height: 100%;
     text-align: -9999px;
-
+    color: #000;
     }
     
 }
@@ -73,11 +73,11 @@ a{
 
 li{
     margin-right: 40px;
-    width: 70px;
+    width: 100px;
     text-align: center;
 
 a{
-    font-size: 16px;
+    font-size: 25px;
     line-height: 32px;
     height: 32px;
     display: inline-block;

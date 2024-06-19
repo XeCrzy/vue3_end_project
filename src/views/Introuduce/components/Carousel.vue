@@ -11,7 +11,7 @@ const bannerList =ref([
 </script>
 
 <template>
-  <el-carousel :interval="4000" type="card" height="300px">
+  <el-carousel :interval="4000" type="card" height="400px">
     <el-carousel-item v-for="item in bannerList" :key="item.id">
                 <img :src="item.imgUrl" alt="">
     </el-carousel-item>

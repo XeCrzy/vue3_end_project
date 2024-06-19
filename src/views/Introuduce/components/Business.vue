@@ -13,7 +13,7 @@
                 <div class="extra_p">
                     <a href=""><div class="extra_p_title">津贴申请</div></a>
                     <a href=""><div class="extra_p_title">机构备案</div></a>
-                    
+                    <a href=""><div class="extra_p_title">社保缴纳</div></a>
                 </div>
             </div>
         </li>
@@ -60,7 +60,7 @@
 <style scoped>
 .bisContainer{
     width: 100%;
-    height: 220px;
+    height: 300px;
     /* background-color: pink; */
     margin-top: 50px;
 
@@ -70,8 +70,8 @@
     justify-content: space-around;
 }
 .bisContainer>ul li{
-    width: 220px;
-    height: 180px;
+    width: 240px;
+    height: 230px;
     padding: 5px 10px;
     /* background-color: red; */
 }
@@ -108,7 +108,7 @@
 .extra_p a{
     color: #000;
     display: block;
-    font-size: 14px;
+    font-size: 15px;
 }
 .extra_p a:hover{
     color: #ff7930;

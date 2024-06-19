@@ -27,7 +27,7 @@ const renovationlist = ref([
         <ul>
             <li v-for="(item,Index) in renovationlist" :key="Index">
                 <div class="renovation-card">
-                    <a href="#" target="_blank">
+                    <RouterLink to="/shop">
                         <div class="renovation-img">
                             <img src="../../../assets/image/fei.jpeg"  alt="">
                         </div>
@@ -42,7 +42,7 @@ const renovationlist = ref([
                         <div class="renovation-hover">
                             <span>查看详情</span>
                         </div> 
-                    </a>
+                    </RouterLink>
                 </div>
             </li>
         </ul>
@@ -54,6 +54,7 @@ const renovationlist = ref([
 <style scoped>
 
 .container_bg {
+    color: black;
     padding: 50px 0;
 }
 .index_title {

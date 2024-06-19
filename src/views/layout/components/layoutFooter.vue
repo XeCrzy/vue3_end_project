@@ -43,7 +43,7 @@
     }
 
     dl{
-        height: 150px;
+        height: 200px;
         text-align: center;
         padding: 0 20px;
         border-right: 1px solid #f2f2f2;
@@ -61,7 +61,7 @@
     }
     dt{
         line-height: 1;
-        font-size: 20px
+        font-size: 24px
     }
 
     dd{
@@ -73,7 +73,7 @@
       border: 1px solid #ededed;
       font-size: 13px;  
       .iconfont {
-        font-size: 20px;
+        font-size: 25px;
         display: block;
         color: #666;
       }
@@ -96,7 +96,7 @@
 
     .download {
       padding-top: 5px;
-      font-size: 14px;
+      font-size: 15px;
       width: auto;
       height: auto;
       border: none;
@@ -119,7 +119,7 @@
     }
     .hotline {
       padding-top: 20px;
-      font-size: 22px;
+      font-size: 24px;
       color: #666;
       width: auto;
       height: auto;

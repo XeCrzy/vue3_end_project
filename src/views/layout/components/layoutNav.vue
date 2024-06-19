@@ -18,7 +18,7 @@ const exitLogin = () =>{
           <li>
             <el-popconfirm title="确认退出吗?" @confirm="exitLogin"  confirm-button-text="确认" cancel-button-text="取消">
               <template #reference>
-                <a href="javascript:;">退出登录</a>
+                <a href="javascript:;" style="font-size: 18px;">退出登录</a>
               </template>
             </el-popconfirm>
           </li>
@@ -44,7 +44,7 @@ h1{
     height: 0px;
 }
  h1 img{
-    height: 50px;
+    height: 65px;
  }
   ul {
     display: flex;
@@ -55,11 +55,11 @@ h1{
       a {
         padding: 0 15px;
         color: black;
-        line-height: 1;
+        line-height: 2;
         display: inline-block;
 
         i {
-          font-size: 14px;
+          font-size: 26px;
           margin-right: 2px;
         }
 

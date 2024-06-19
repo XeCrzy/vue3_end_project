@@ -1,4 +1,5 @@
 <script setup>
+
 import News from './components/news.vue';
 import mianbaoxue from './components/mianbaoxue.vue';
 </script>
@@ -6,6 +7,11 @@ import mianbaoxue from './components/mianbaoxue.vue';
 <template>
     <mianbaoxue></mianbaoxue>
     <News></News>
+    
+    
+    <NewsDetail></NewsDetail>
 </template>
 
-<style scoped></style>
+<style scoped>
+
+</style>
